@@ -27,10 +27,10 @@ export class CdkCartApiStack extends cdk.Stack {
         ]
       },
       environment: {
-        DB_HOST: "cart-db.cglyyakcoapt.us-east-1.rds.amazonaws.com",
+        DB_HOST: "postgres",
         DB_PORT: "5432",
         DB_USER: "postgres",
-        DB_PASSWORD: "2025best!",
+        DB_PASSWORD: "postres",
         DB_NAME: "postgres"
       }
     });
